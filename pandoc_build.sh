@@ -8,6 +8,9 @@ SETTING_FILE=pandoc_config.yaml
 #  出力形式ごとに初期を記載する
 # --------------------------------
 
+# outputsが存在しない場合は作成する
+mkdir -p outputs
+
 # html
 if [ "$1" == "html" ]; then
     pandoc -d $SETTING_FILE -d conf/$1.yaml
