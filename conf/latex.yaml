@@ -1,0 +1,13 @@
+# 出力ファイル
+output-file: outputs/result.tex
+
+# H1見出しをどこに対応させるか
+top-level-division: chapter
+
+# ハイライト
+highlight-style: tango
+
+# 出力を単体で表示できるか
+standalone: false
+
+toc-depth: 2

@@ -1,0 +1,21 @@
+# 入力ファイル
+input-files:
+  - src/01_intro.md
+  - src/02_install.md
+  - src/03_basic.md
+  - src/04.md
+  - src/06.md
+  - src/07.md
+
+filters:
+  - pandoc-crossref
+
+metadata:
+  # pandoc-crossrefの制御ファイル
+  #crossrefYaml: "crossref.yaml"
+  # ドキュメントタイトル
+  title: "Title in command line option"
+
+
+# セクション番号の有無
+number-sections: true

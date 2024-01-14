@@ -1,0 +1,27 @@
+# 出力ファイル
+output-file: outputs/result.pdf
+pdf-engine: lualatex
+
+metadata:
+  # ドキュメントクラス
+  documentclass: bxjsarticle
+  #documentclass: bxjsbook
+
+# H1見出しをどこに対応させるか
+#top-level-division: chapter
+top-level-division: section
+
+# ハイライト
+highlight-style: tango
+
+toc: true
+toc-depth: 2
+
+
+variables:
+  classoption:
+    - pandoc
+    - titlepage
+
+# 出力を単体で表示できるか
+standalone: true

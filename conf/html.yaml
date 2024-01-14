@@ -1,0 +1,5 @@
+# 出力ファイル
+output-file: outputs/result.html
+
+# 出力を単体で表示できるか
+standalone: true
